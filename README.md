@@ -4,7 +4,7 @@
 
 ## 下载
 
-- [下载最新版本](https://github.com/mouse0901/cloud-dock-releases/releases/latest)
+- [下载 v0.6.2 测试版](https://github.com/mouse0901/cloud-dock-releases/releases/tag/v0.6.2)
 - 测试版请在 [Releases](https://github.com/mouse0901/cloud-dock-releases/releases) 页面选择带有 `Pre-release` 标记的版本。
 
 推荐普通用户下载 `CloudDock-版本号-Setup-x64.exe`。便携版 ZIP 适合免安装试用，但自动安装更新仅在安装版中启用。
