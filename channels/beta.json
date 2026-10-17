@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "cloud-dock",
+  "channel": "beta",
+  "version": "0.6.2",
+  "published_at": "2026-10-17T05:29:18.7921611Z",
+  "notes": "云屿 Cloud Dock 0.6.2 · 更新测试版\n\n本版加入完整的软件更新入口：后台检查正式版或测试版、签名清单验证、可续传下载、安装包 SHA-256 校验，以及安装完成后重启。\n检查更新不会阻塞启动；网络失败不会影响网盘、传输和同步功能。\n有传输、同步或备份运行时，不会直接关闭程序，可以选择任务安全结束后再安装。\n\n安装版支持软件内安装更新。便携版可以检查和下载，但暂不自动替换程序，请使用新版安装包升级。\n登录、设置、任务和同步记录继续保存在独立数据目录，升级和卸载不会主动删除。\n\n0.6.2 先进入测试通道。GitHub 发布仓库建立后才启用真实更新地址。\n夸克上传和双向同步仍需容量充足账号继续验收；跨重启分片续传、大目录长期运行和多端同时编辑仍需进一步测试。",
+  "artifact": {
+    "kind": "installer",
+    "architecture": "windows-x64",
+    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v0.6.2/CloudDock-0.6.2-Setup-x64.exe",
+    "size": 15545342,
+    "sha256": "6844c24a8552caf38b92eadad007a496fd075eb52fc4c84703a7dfca00ae5a7c"
+  }
+}
