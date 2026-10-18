@@ -2,14 +2,14 @@
   "schema": 1,
   "product": "cloud-dock",
   "channel": "beta",
-  "version": "0.6.4",
-  "published_at": "2026-10-17T09:58:25.0166560Z",
-  "notes": "云屿 Cloud Dock 0.6.4 · Beta\r\n\r\n新增新建文件夹、重命名、移动、复制和云盘内全局搜索，并在执行前明确提示冲突与同步影响。\r\n图片和视频可在本地预览；支持原生拖拽上传、快捷键操作和大传输列表的按需展开。\r\n下载任务在正常退出时保存进度，重启后按当前账号继续；网络瞬断最多自动重试两次。\r\n同步页面补充最近成功时间、变更记录和历史记录。测试素材与本地账号数据不会随安装包发布。",
+  "version": "0.6.7",
+  "published_at": "2026-10-18T04:28:04.5864540Z",
+  "notes": "云屿 Cloud Dock 0.6.7 · 测试版\r\n\r\n- 移除侧栏大品牌区、常驻快捷键与底部教学文字，单页目录隐藏翻页。\r\n- 原创上传、下载与异常短提示音；合并连续任务，分享链接下载同样提醒。\r\n- 新增声音与通知设置：分别开关、音量试听、通知文件名、跨午夜免打扰。\r\n- 后台桌面卡片与最近 100 条本地通知记录；错误、空间不足、登录失效、同步待处理集中提醒。\r\n- 网格与列表切换过渡、选中反馈、加入队列反馈、完成反馈、目录滚动位置恢复与拖放目标提示。\r\n- 关于云屿新增作者马蹄疾及哔哩哔哩主页。\r\n\r\n此版本通过 beta 更新通道分发，请在真实账号与文件上验证后再作为正式版使用。",
   "artifact": {
     "kind": "installer",
     "architecture": "windows-x64",
-    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v0.6.4/CloudDock-0.6.4-Setup-x64.exe",
-    "size": 15565658,
-    "sha256": "2763757150ff41825df146aead2eb8929b8512f9d3f8d7593b78e2ffcea76726"
+    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v0.6.7/CloudDock-0.6.7-Setup-x64.exe",
+    "size": 15736733,
+    "sha256": "de08450faa9f1eda5e6e400a70300fc4c5a6fb641bc5a4ddf60f0bc39070a092"
   }
 }
