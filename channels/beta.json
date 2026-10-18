@@ -2,14 +2,14 @@
   "schema": 1,
   "product": "cloud-dock",
   "channel": "beta",
-  "version": "0.6.7",
-  "published_at": "2026-10-18T04:28:04.5864540Z",
-  "notes": "云屿 Cloud Dock 0.6.7 · 测试版\r\n\r\n- 移除侧栏大品牌区、常驻快捷键与底部教学文字，单页目录隐藏翻页。\r\n- 原创上传、下载与异常短提示音；合并连续任务，分享链接下载同样提醒。\r\n- 新增声音与通知设置：分别开关、音量试听、通知文件名、跨午夜免打扰。\r\n- 后台桌面卡片与最近 100 条本地通知记录；错误、空间不足、登录失效、同步待处理集中提醒。\r\n- 网格与列表切换过渡、选中反馈、加入队列反馈、完成反馈、目录滚动位置恢复与拖放目标提示。\r\n- 关于云屿新增作者马蹄疾及哔哩哔哩主页。\r\n\r\n此版本通过 beta 更新通道分发，请在真实账号与文件上验证后再作为正式版使用。",
+  "version": "0.6.8",
+  "published_at": "2026-10-18T05:05:36.8625530Z",
+  "notes": "云屿 Cloud Dock 0.6.8 · 测试版\r\n\r\n- 修复部分网络环境无法连接 GitHub 更新服务的问题。\r\n- 自动检测常用本机代理；GitHub Raw 不通时使用 GitHub Contents API 备用通道。\r\n- 设置中可选择自动检测、系统代理、直接连接或手动代理。\r\n- 安装包下载会重试可用线路，并保留断点续传。\r\n- RSA 签名与安装包 SHA-256 校验保持不变。\r\n\r\n此版本通过 beta 更新通道分发，请在真实账号与文件上验证后再作为正式版使用。",
   "artifact": {
     "kind": "installer",
     "architecture": "windows-x64",
-    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v0.6.7/CloudDock-0.6.7-Setup-x64.exe",
-    "size": 15736733,
-    "sha256": "de08450faa9f1eda5e6e400a70300fc4c5a6fb641bc5a4ddf60f0bc39070a092"
+    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v0.6.8/CloudDock-0.6.8-Setup-x64.exe",
+    "size": 15740418,
+    "sha256": "ebbd3bc59a0cead325d760e784bd7e586d70fa66e8fa3c8c0ad54c845ce9f6a7"
   }
 }
