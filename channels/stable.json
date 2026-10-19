@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "cloud-dock",
+  "channel": "stable",
+  "version": "1.0.0",
+  "published_at": "2026-10-19T01:19:51.8097614Z",
+  "notes": "云屿 Cloud Dock 1.0.0 · 正式版\r\n\r\n首个正式版将百度网盘与夸克网盘的日常文件工作流集中到一个 Windows 桌面程序中。\r\n\r\n- 文件浏览支持列表、网格、缩略图、搜索、多标签、右键操作与回收站。\r\n- 传输支持文件和文件夹上传、下载、分组、优先级、失败重试、预计剩余时间及完成提醒。\r\n- 同步支持单文件和文件夹，提供双向、仅上传、仅下载、变化清单、冲突处理、历史版本与恢复副本。\r\n- 复制分享链接后可唤起云屿；支持链接收件箱、跨网盘搜索与受确认的跨盘复制。\r\n- 多账号、托盘运行、开机启动、个人偏好导入导出、诊断导出和通知设置均保留在本机。\r\n- 默认使用稳定更新通道；更新清单经 RSA 签名验证，安装程序经 SHA-256 校验。\r\n\r\n下载速度、会员权益和部分云端操作取决于网盘平台、账号状态及网络环境；云屿不会绕过平台限制。",
+  "artifact": {
+    "kind": "installer",
+    "architecture": "windows-x64",
+    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v1.0.0/CloudDock-1.0.0-Setup-x64.exe",
+    "size": 15840509,
+    "sha256": "cb7c4aa2687081b0905b814c8260b47201bb0c2ffc19a4c337e48f95eb88fb60"
+  }
+}
