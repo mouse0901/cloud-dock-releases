@@ -2,14 +2,14 @@
   "schema": 1,
   "product": "cloud-dock",
   "channel": "beta",
-  "version": "0.6.8",
-  "published_at": "2026-10-18T05:05:36.8625530Z",
-  "notes": "云屿 Cloud Dock 0.6.8 · 测试版\r\n\r\n- 修复部分网络环境无法连接 GitHub 更新服务的问题。\r\n- 自动检测常用本机代理；GitHub Raw 不通时使用 GitHub Contents API 备用通道。\r\n- 设置中可选择自动检测、系统代理、直接连接或手动代理。\r\n- 安装包下载会重试可用线路，并保留断点续传。\r\n- RSA 签名与安装包 SHA-256 校验保持不变。\r\n\r\n此版本通过 beta 更新通道分发，请在真实账号与文件上验证后再作为正式版使用。",
+  "version": "1.0.1-beta.1",
+  "published_at": "2026-10-19T03:07:13.8548476Z",
+  "notes": "云屿 Cloud Dock 1.0.1-beta.1 · 测试版\n\n这次测试版将“打开链接”升级为独立链接库。主动打开百度或夸克分享后，链接在当前 Windows 用户下加密保存，不再按数量淘汰；可搜索、编辑地址和提取码、置顶、批量移除并撤销。一次粘贴多个链接可以全部保存，选择其中一条打开。\n\n“我的分享”保存云屿新创建的分享记录，支持复制链接、修改本机名称与备注、移除本机记录。创建分享和重命名的确认与结果反馈也已改善。\n\n更新通道改为“正式版 / 测试版”两个直接可点的选项。切换只决定以后接收哪类更新，不会立即替换当前程序；旧通道的检查结果不会覆盖新选择。\n\n已知边界：本机移除分享记录不会撤销网盘分享，撤销访问请使用平台官方应用；旧版已经淘汰的历史链接无法恢复。自动桌面烟测在此开发环境的 WebView2 控制器初始化阶段未完成，实际账号交互仍需用户验证。正式版 1.0.0 不受本测试版影响。",
   "artifact": {
     "kind": "installer",
     "architecture": "windows-x64",
-    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v0.6.8/CloudDock-0.6.8-Setup-x64.exe",
-    "size": 15740418,
-    "sha256": "ebbd3bc59a0cead325d760e784bd7e586d70fa66e8fa3c8c0ad54c845ce9f6a7"
+    "url": "https://github.com/mouse0901/cloud-dock-releases/releases/download/v1.0.1-beta.1/CloudDock-1.0.1-beta.1-Setup-x64.exe",
+    "size": 15849259,
+    "sha256": "0ef671d2e08e7c3de292073217302d1a8effef9d1022a4301f9c83bfe4cdf75b"
   }
 }
